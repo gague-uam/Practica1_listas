@@ -7,7 +7,6 @@ lista = ["You make me", "She smiled", "Tick Tock", "You Were Beautiful"]
 print(lista)
 
 for i in lista:
-    contador = 1
     if len(i) % 2 == 0:
         print(i.upper())
     else:
