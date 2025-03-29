@@ -7,5 +7,5 @@ print(lista)
 
 for i in lista:
     letra = "o"
-    conteo = i.count("o")
+    conteo = i.count(letra)
     print(f"La letra '{letra}' aparece {conteo} veces en la cadena")
